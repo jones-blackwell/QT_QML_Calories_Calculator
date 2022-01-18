@@ -76,13 +76,13 @@ QString DatabaseHandler::calories()
 
 float DatabaseHandler::calculateCarbohydrates(QString carbohydrates)
 {
-    float c = (carbohydrates.toFloat()) * 9;
+    float c = (carbohydrates.toFloat()) * 4;
     return c;
 }
 
 float DatabaseHandler::calculateFat(QString fat)
 {
-    float c = (fat.toFloat()) * 4;
+    float c = (fat.toFloat()) * 9;
     return c;
 }
 
